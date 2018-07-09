@@ -21,6 +21,7 @@ $( document ).ready(function() {
         endDate = 20180407 
         keyword = "";
         numberOf = 10;
+        $("#articlesGoHere").empty();
         url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
     });
 
