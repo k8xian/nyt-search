@@ -1,0 +1,57 @@
+body {
+    color: rgba(0,0,0,.66);
+}
+
+.jumbotron {
+    color: white;
+    background-color: #21325a;
+}
+
+h2 {
+    color: white;
+}
+
+h3{
+    color: #21325a;
+    margin-top: 6px;
+}
+
+h5 {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #21325a;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: lightgray;
+    border-color:lightgray;
+}
+
+.btn-primary.clear {
+    background-color: darkgray;
+    border-color:darkgray;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.panel {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.badge {
+    padding: .4em .75em;
+    font-size: 75%;
+    color: white;
+    background-color: #21325a; 
+}
+
+.container {
+    margin-bottom: 40px;
+}
