@@ -36,7 +36,9 @@ $( document ).ready(function() {
 
        // var limit = '&limit=' + numberOf;
        // console.log(limit);
-
+       var startDate = 19000101;
+       var endDate = 20180704
+       var numberOf = 10;
        
         url += '?' + $.param({
           'api-key': "b14ddadd671848b8af670577089ce376",
@@ -59,6 +61,8 @@ $( document ).ready(function() {
                 var articleTitle = result.response.docs[i].headline.main;
                 console.log(articleTitle);
 
+                articleNum = parseInt(i + 1);
+
                 var byline = result.response.docs[i].byline.original;
                 console.log(byline);
 
@@ -66,14 +70,12 @@ $( document ).ready(function() {
                 //create a panel
                 a.addClass("panel");
                 //append content to title
-                $(a).append('<h3><span class="badge badge-secondary">'+ i +'</span> ' + articleTitle + '</h3>'
-                + '<h5>By:'+byline+'/>'
+                $(a).append('<h3><span class="badge badge-secondary">'+ articleNum +'</span> ' + articleTitle + '</h3>'
+                + '<h5>By:'+byline+'<h5/>'
                 );
                 
                 // Added the button to where it belongs
                 $("#articlesGoHere").append(a);
-
-                $("#articlesGoHere").append("<div>").addClass("panel").attr("id", panelId);
 
             }
 
@@ -81,11 +83,11 @@ $( document ).ready(function() {
         }).fail(function (err) {
             throw err;
         });
-        
-    });
-
 
 
 });
 
 
+
+        
+    });
