@@ -1,9 +1,7 @@
 
 
-    var startDate = 19000101;
-    var endDate = 20180704 
+
     var keyword = "";
-    var numberOf = 10;
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
 $( document ).ready(function() {
@@ -33,7 +31,7 @@ $( document ).ready(function() {
         keyword = $("#searchTerm").val();
         startDate = $('#startYear').val();
         endDate = $("#endYear").val();
-        numberOf = $("#numRecords").val();
+        numberOf = parseInt($("#numRecords").val());
 
        // var limit = '&limit=' + numberOf;
        // console.log(limit);
