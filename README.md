@@ -4,7 +4,7 @@ ___
 
 # Contributors
 
-[Ciwonie](github.com/Ciwonie)
-[eeissler83](github.com/eeissler83)
-[k8xian](github.com/k8xian)
-[Rodriguez32](github.com/Rodriguez32)
+**[Ciwonie](github.com/Ciwonie)
+**[eeissler83](github.com/eeissler83)
+**[k8xian](github.com/k8xian)
+**[Rodriguez32](github.com/Rodriguez32)
